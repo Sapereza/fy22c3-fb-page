@@ -559,12 +559,20 @@ video {
 }
 
 .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.gray-text {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+>>>>>>> origin/main
 .m-2 {
   margin: 0.5rem;
 }
@@ -574,23 +582,44 @@ video {
   margin-right: 0.5rem;
 }
 
+<<<<<<< HEAD
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
+=======
+>>>>>>> origin/main
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+>>>>>>> origin/main
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
 }
 
+<<<<<<< HEAD
 .block {
   display: block;
+=======
+.mt-4 {
+  margin-top: 1rem;
+>>>>>>> origin/main
 }
 
 .flex {
@@ -605,6 +634,7 @@ video {
   height: 1.5rem;
 }
 
+<<<<<<< HEAD
 .h-16 {
   height: 4rem;
 }
@@ -617,18 +647,26 @@ video {
   height: 1.25rem;
 }
 
+=======
+>>>>>>> origin/main
 .h-8 {
   height: 2rem;
 }
 
+<<<<<<< HEAD
 .w-3\/4 {
   width: 75%;
+=======
+.w-full {
+  width: 100%;
+>>>>>>> origin/main
 }
 
 .w-6 {
   width: 1.5rem;
 }
 
+<<<<<<< HEAD
 .w-16 {
   width: 4rem;
 }
@@ -641,6 +679,8 @@ video {
   width: 1.25rem;
 }
 
+=======
+>>>>>>> origin/main
 .w-8 {
   width: 2rem;
 }
@@ -653,22 +693,41 @@ video {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+=======
+>>>>>>> origin/main
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+<<<<<<< HEAD
+=======
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+>>>>>>> origin/main
 .rounded-full {
   border-radius: 9999px;
 }
 
+<<<<<<< HEAD
 .border-t-2 {
   border-top-width: 2px;
 }
@@ -701,16 +760,37 @@ video {
 .bg-pink-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+=======
+.border {
+  border-width: 1px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
+.bg-facebook1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 104 175 / var(--tw-bg-opacity));
+}
+
+.bg-facebook2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 72 125 / var(--tw-bg-opacity));
+>>>>>>> origin/main
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
+<<<<<<< HEAD
 .p-8 {
   padding: 2rem;
 }
 
+=======
+>>>>>>> origin/main
 .p-4 {
   padding: 1rem;
 }
@@ -720,6 +800,17 @@ video {
   padding-right: 0.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+>>>>>>> origin/main
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -734,11 +825,25 @@ video {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+>>>>>>> origin/main
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -752,6 +857,11 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+=======
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+>>>>>>> origin/main
 }
 
 .shadow-lg {
