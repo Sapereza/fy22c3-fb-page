@@ -27,7 +27,7 @@
           fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          <input type="text" name="search" id="search" class="bg-facebook2 outline-none text-white font-bold w-full">
+          <input type="text" name="search" id="search-box" class="bg-facebook2 outline-none text-white font-bold w-full">
         </div>
       
         <!-- end: search box -->
@@ -38,6 +38,21 @@
           </svg>
 </div>
 <!-- end: navigation -->
+
+<!--Start Result Section-->
+  <div id="results" class="bg-facebook1 text-white p-8 space-y-2 hidden">
+    <ul>
+      <li>Result 1</li>
+      <li>Result 2</li>
+      <li>Result 3</li>
+    </ul>
+  </div>
+
+
+
+
+
+<!--End Result Section-->
 
 <!-- start: subheader-->
 <div id="sub-header" class="flex justify-between mx-2 mt-4">
@@ -99,5 +114,6 @@
   </div>
 <!-- end: like/comment-->
 
+<script src="src/app.js"></script>
 </body>
 </html>
